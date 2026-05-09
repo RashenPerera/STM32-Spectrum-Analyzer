@@ -12,5 +12,4 @@ This project processes audio signals in real-time using an STM32 microcontroller
 ## Tech Stack
 * **Microcontroller:** STM32F1 series
 * **DSP:** ARM CMSIS-DSP (Fast Fourier Transform)
-* **Display:** ILI9341 (8-bit Parallel Interface)
-* **Hardware Design:** Altium Designer (Mixed-signal PCB)
+* **Display:** 2.4" tft lcd shield (ILI9341) 
