@@ -1,0 +1,15 @@
+# Build directories
+Debug/
+Release/
+
+# Object files and executables
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# IDE specific files (optional, but keeps repo clean if others use different IDEs)
+.mxproject
+*.launch
