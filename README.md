@@ -1,5 +1,3 @@
-# STM32-Spectrum-Analyzer
-Firmware and Schematic design for a real-time, 64-band STM32 Audio Spectrum Analyzer.
 # STM32 Audio Spectrum Analyzer
 
 *Firmware and Hardware design files for a real-time, 64-band audio spectrum analyzer built from the ground up.*
