@@ -48,3 +48,13 @@ The custom analog front-end uses an **LM358 Op-Amp** to accomplish three things:
 3. **Anti-Aliasing Filter:** An RC low-pass filter (R7, C14) aggressively chokes high-frequency noise above ~10.6kHz to prevent aliasing in the FFT calculations.
 
 ![Audio Input Schematic](audio_schematic.png)
+
+## Hardware Design (Altium Designer)
+The custom mixed-signal PCB was designed in Altium Designer. It features an isolated analog front-end for the audio input, a dedicated 8-bit parallel bus for the ILI9341 display.
+
+### 3D Renders
+![Altium 3D Render 1]([3d_render_1.png])
+![Altium 3D Render 2]([3d_render_2.png])
+
+### 2D Routing
+![Altium 2D Routing]([2d_routing.png])
