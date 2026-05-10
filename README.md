@@ -45,7 +45,7 @@ To properly read the AC audio signal with the STM32's internal ADC, the signal m
 The custom analog front-end uses an **LM358 Op-Amp** to accomplish three things:
 1. **Stereo to Mono Summing:** Resistors R6 and R8 safely sum the Left and Right audio channels into a single mono signal.
 2. **DC Bias:** The voltage divider network creates a 1.65V DC offset, allowing the AC audio wave to oscillate safely within the STM32's 0V - 3.3V ADC window.
-3. **Anti-Aliasing Filter:** An RC low-pass filter (R7, C14)cut-off high-frequency noise above ~10.6kHz to prevent aliasing in the FFT calculations.
+3. **Anti-Aliasing Filter:** An RC low-pass filter (R7, C14) cut-off high-frequency noise above ~10.6kHz to prevent aliasing in the FFT calculations.
 
 ![Audio Input Schematic](audio_schematic.png)
 
